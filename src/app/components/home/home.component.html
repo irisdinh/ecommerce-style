@@ -1,7 +1,19 @@
-<div>
-    <h2>Explore your best image</h2>
-    <p>We have all the most stylish jewelry pieces</p>
-    <button>Discover your gem</button>
+<div class="home">
+    <h2 class="title">Explore your best image</h2>
+    <div class="landing">
+        <div>
+            <p class="landing_text">We have all the most stylish jewelry pieces</p>
+            <button class="discover">Discover your gem</button>
+        </div>
+        <img class='landing_image' title="home" src="../../../assets/landing.jpg"/>
+    </div>
     <h5>Every jewelry tells a story</h5>
     <h5>Story</h5>
+    <div class="slideshow">
+        <ul *ngFor="let imageName of imageList" class="story">
+            <li >
+                <img title={{imageName}} src={{imageName}}/>
+            </li>
+        </ul>
+    </div>
 </div>

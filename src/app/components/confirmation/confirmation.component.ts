@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './confirmation.component.css'
 })
 export class ConfirmationComponent {
+  constructor() { }
 
+  ngOnInit(): void {
+  }
 }

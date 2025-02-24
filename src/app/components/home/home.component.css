@@ -1,0 +1,31 @@
+.home {
+    background-color: transparent;
+    margin: 10px 10px;
+}
+
+.title {
+    margin: 10px 10px;
+}
+
+.discover {
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #855c85;
+    color: white;
+    font-size: 15px;
+    border-color: white;
+}
+
+.landing {
+    display: flex;
+}
+
+.landing_image {
+    width: 15vw;
+    height: 30vh;
+}
+
+.landing_text {
+    margin: 10px 10px;
+}
