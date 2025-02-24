@@ -1,3 +1,12 @@
 <div>
-    <h2>Cart</h2>
+    <h2 class="title">Cart</h2>
+    <h3 class="list_text">Item List</h3>
+    <ul *ngFor="let item of itemList" class="item_list">
+        <li>
+            <app-order-item [item]="item"></app-order-item>
+        </li>
+    </ul>
+    <h3 class="list_text">User Info</h3>
+    <app-form></app-form>
+    <button class="checkout_button">Checkout</button>
 </div>

@@ -1,0 +1,12 @@
+.title {
+    margin: 10px 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 5px;
+}
+
+.product_list {
+    display: inline-grid;
+}

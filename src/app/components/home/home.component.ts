@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  imageList: string[] = ['cat', 'dog']
+  imageList: string[] = ['necklace', 'ring'];
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,4 +1,9 @@
 <div>
-    <h2>Products</h2>
+    <h2 class="title">Products</h2>
+    <ul *ngFor="let product of productList" class="product_list">
+        <li>
+            <app-product-card [product]="product"></app-product-card>
+        </li>
+    </ul>
 </div>
 

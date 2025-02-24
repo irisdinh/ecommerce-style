@@ -7,9 +7,10 @@
     margin: 10px 10px;
 }
 
+
 .discover {
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 20px;
     padding: 10px;
     background-color: #855c85;
     color: white;
@@ -19,13 +20,37 @@
 
 .landing {
     display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .landing_image {
-    width: 15vw;
-    height: 30vh;
+    width: 20vw;
+    height: 40vh;
+    padding: 20px;
+    margin: 20px;
 }
 
 .landing_text {
     margin: 10px 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.text_box {
+    padding: 20px;
+}
+
+.story {
+    display: flex;
+}
+
+.story_image {
+    width: 20vw;
+    height: 40vh;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 5px;
 }
