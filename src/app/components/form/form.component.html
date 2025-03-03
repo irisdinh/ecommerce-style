@@ -1,2 +1,15 @@
-<p>Address</p>
-<p>Payment</p>
+<div class="info_form">
+    <p>Address</p>
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Placeholder">
+    </mat-form-field>
+    <p>Payment</p>
+    <mat-form-field appearance="outline">
+        <mat-radio-group aria-label="Select an option">
+            <mat-radio-button matInput value="apple">Apple Pay</mat-radio-button>
+            <mat-radio-button matInput value="paypal">Paypal</mat-radio-button>
+            <mat-radio-button matInput value="visa">Visa</mat-radio-button>
+        </mat-radio-group>
+    </mat-form-field>
+</div>
+

@@ -1,12 +1,14 @@
 <div class="item_container">
     <div class="info_box">
-        <p>{{item.name}}</p>
-        <img title="name" src="../../../assets//{{item.image}}.jpg"/>
+        <p class="name">{{item.name}}</p>
+        <img title="name" src="../../../assets/{{item.image}}.jpg" class="item_image"/>
     </div>
     <div class="info_box">
         <p>Quantity: {{item.quantity}}</p>
         <p>Single price: ${{item.price}}</p>
         <p>Total price: ${{item.price}}</p>
     </div>
-    <button class="remove_button">Remove</button>
+    <button class="remove_button">
+        <mat-icon aria-hidden="false" aria-label="remove item" fontIcon="delete"></mat-icon>
+    </button>
 </div>

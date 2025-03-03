@@ -42,12 +42,12 @@
 }
 
 .story {
-    display: flex;
+    display: inline-flex;
 }
 
 .story_image {
     width: 20vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 li {

@@ -4,16 +4,14 @@
         <div class="text_box">
             <p class="landing_text">We have all the most stylish jewelry pieces</p>
             <p class="landing_text">Special for every occasions</p>
-            <button class="discover">Discover your gem</button>
+            <button class="discover" [routerLink]="['/products']">Discover your gem</button>
         </div>
         <img class='landing_image' title="home" src="../../../assets/landing.jpg"/>
     </div>
     <h3 class="landing_text">Every jewelry tells a story</h3>
-    <div class="slideshow">
-        <ul *ngFor="let imageName of imageList" class="story">
-            <li>
-                <img title={{imageName}} src="../../../assets/{{imageName}}.jpg" class="story_image"/>
-            </li>
-        </ul>
-    </div>
+    <ul *ngFor="let imageName of imageList" class="story">
+        <li>
+            <img title={{imageName}} src="../../../assets/{{imageName}}.jpg" class="story_image"/>
+        </li>
+    </ul>
 </div>

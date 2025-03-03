@@ -1,0 +1,16 @@
+.signup_container {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+}
+
+.signup_button {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #855c85;
+    color: white;
+    font-size: 15px;
+    border-color: white; 
+}
